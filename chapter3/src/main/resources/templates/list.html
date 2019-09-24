@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>图书列表</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td>编号</td>
+        <td>人物</td>
+        <td>简介</td>
+    </tr>
+    <tr th:each="heroic:${list}">
+        <td th:text="${heroic.id}"></td>
+        <td th:text="${heroic.name}"></td>
+        <td th:text="${heroic.remarks}"></td>
+    </tr>
+</table>
+</body>
+</html>
