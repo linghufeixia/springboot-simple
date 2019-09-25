@@ -7,6 +7,8 @@ springboot简书
 
 2 springboot Starter https://blog.csdn.net/afei8080/article/details/101346285
 
+3 springboot Web开发  https://blog.csdn.net/afei8080/article/details/101348597
+
 个人博客：https://blog.csdn.net/afei8080
 
 全文代码：https://github.com/alifeidao/springboot-simple
