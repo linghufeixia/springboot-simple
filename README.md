@@ -9,6 +9,10 @@ springboot简书
 
 3 springboot Web开发  https://blog.csdn.net/afei8080/article/details/101348597
 
+4 springboot 数据持久化 https://blog.csdn.net/afei8080/article/details/101422030
+
+5 springboot Nosql https://blog.csdn.net/afei8080/article/details/101422594
+
 个人博客：https://blog.csdn.net/afei8080
 
 全文代码：https://github.com/alifeidao/springboot-simple
