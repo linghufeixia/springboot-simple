@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.feidao.chapter41.dao.MybatisDao">
+    <resultMap id="BaseResultMap" type="org.feidao.chapter41.model.Heroic">
+        <result column="id" property="id" jdbcType="INTEGER"/>
+        <result column="name" property="name"  jdbcType="VARCHAR" />
+        <result column="remarks" property="remarks"  jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, name, remarks
+    </sql>
+
+    <select id="findAllList" resultMap="BaseResultMap">
+        select *  from tb_heroic
+    </select>
+
+    <insert id="insert" parameterType="org.feidao.chapter41.model.Heroic">
+insert into tb_heroic (
+name, remarks
+) values (
+#{heroic.name},#{heroic.remarks}
+)
+    </insert>
+
+    <delete id="delete" parameterType="INTEGER">
+		delete from
+			tb_heroic
+		where
+			id = #{id}
+	</delete>
+
+    <update id="update" parameterType="org.feidao.chapter41.model.Heroic">
+        update
+        tb_heroic
+        set
+        <if test="heroic.name!=null">
+            name = #{heroic.name},
+        </if>
+
+        <if test="heroic.remarks!=null">
+            remarks = #{heroic.remarks}
+        </if>
+        where
+        id = #{heroic.id}
+    </update>
+</mapper>
+
