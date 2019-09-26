@@ -1,6 +1,14 @@
-springboot¼òÊé
-   ¸ÃÏµÁĞ½Ì³ÌÖ÷ÒªÍ¨¹ı¼òµ¥ÉÙÁ¿ÃèÊöÀ´ÁË½âspringboot¡£
-   Ö÷Òª½²½âÁËspringboot helloworld£¬Êı¾İ³Ö¾Ã»¯ºÍNoSql¡£
+springbootç®€ä¹¦
+   è¯¥ç³»åˆ—æ•™ç¨‹ä¸»è¦é€šè¿‡ç®€å•å°‘é‡æè¿°æ¥äº†è§£springbootã€‚ä¸»è¦è®²è§£äº†springboot helloworldï¼Œstarterçš„åŸç†ã€webå¼€å‘ã€æ•°æ®æŒä¹…åŒ–å’ŒNoSqlã€‚æœ¬ç³»åˆ— æ•™ç¨‹çš„å®—æ—¨ï¼šä»£ç é«˜äºæ–‡æ¡£ï¼Œæ‰€ä»¥æ–‡æ¡£æè¿°å°‘ï¼Œé‡ç‚¹çœ‹ä»£ç ã€‚
+   
+0 springbootç®€ä»‹  https://blog.csdn.net/afei8080/article/details/101297868
 
-¸öÈË²©¿Í£ºhttps://blog.csdn.net/afei8080
-È«ÎÄ´úÂë£ºhttps://github.com/alifeidao/springboot-simple
+1 springboot Helloworld https://blog.csdn.net/afei8080/article/details/101345712
+
+2 springboot Starter https://blog.csdn.net/afei8080/article/details/101346285
+
+3 springboot Webå¼€å‘  https://blog.csdn.net/afei8080/article/details/101348597
+
+ä¸ªäººåšå®¢ï¼šhttps://blog.csdn.net/afei8080
+
+å…¨æ–‡ä»£ç ï¼šhttps://github.com/alifeidao/springboot-simple
