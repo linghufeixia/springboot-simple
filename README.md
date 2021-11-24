@@ -1,3 +1,7 @@
+最新的代码同步：
+https://gitee.com/alifeidao/springboot-simple
+
+
 springboot简书
    该系列教程主要通过简单少量描述来了解springboot。主要讲解了springboot helloworld，starter的原理、web开发、数据持久化和NoSql。本系列 教程的宗旨：代码高于文档，所以文档描述少，重点看代码。
    
